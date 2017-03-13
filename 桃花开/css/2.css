@@ -1,0 +1,453 @@
+/*第二页样式*/
+
+#china {
+	width: 16%;
+	position: absolute;
+	left: 42%;
+	top: 20.94%;
+}
+
+#china img {
+	width: 100%;
+}
+
+#bg1 {
+	width: 100%;
+	position: absolute;
+	background: url(../img/bged.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#twenty {
+	width: 23%;
+	position: absolute;
+	left: 60%;
+	top: 80.88%;
+}
+
+#twenty img {
+	width: 100%;
+}
+
+#beauty {
+	width: 20%;
+	position: absolute;
+	left: 40%;
+	top: 60%;
+}
+
+#beauty img {
+	width: 100%;
+}
+
+#year {
+	position: absolute;
+	width: 22%;
+	left: 40%;
+	top: 71%;
+}
+
+#year img {
+	width: 100%;
+}
+
+#master {
+	position: absolute;
+	width: 20%;
+	left: 40%;
+	top: 76%;
+}
+
+#master img {
+	width: 100%;
+}
+
+#si {
+	position: absolute;
+	width: 22%;
+	left: 40%;
+	top: 63%;
+}
+
+#si img {
+	width: 100%;
+}
+
+#point11 {
+	position: absolute;
+	top: 14.48%;
+	left: 33%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point11 img {
+	width: 100%;
+}
+
+.point1 {
+	animation: point111 0.1s 1.9s alternate forwards linear;
+}
+
+@keyframes point111 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#line11 {
+	position: absolute;
+	top: 4%;
+	left: -4%;
+	width: 0;
+	transform-origin: left;
+	transform: rotate(30deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.line1 {
+	width: 0;
+	animation: line111 1s 1s alternate forwards linear;
+}
+
+@keyframes line111 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 45%;
+	}
+}
+
+#line21 {
+	position: absolute;
+	top: 16.48%;
+	left: 34.22%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	transform-origin: left;
+	transform: rotate(90deg);
+	width: 0;
+	height: 1px;
+}
+
+.line2 {
+	width: 0;
+	animation: line211 2s 2s alternate forwards linear;
+}
+
+@keyframes line211 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 116%;
+	}
+}
+
+#point21 {
+	position: absolute;
+	top: 80%;
+	left: 33%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point21 img {
+	width: 100%;
+}
+
+.point2 {
+	animation: point211 0.1s 3.9s alternate forwards linear;
+}
+
+@keyframes point211 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#line31 {
+	position: absolute;
+	top: 82%;
+	left: 33.55%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	width: 0;
+	height: 1px;
+}
+
+.line3 {
+	width: 0;
+	animation: line311 0.5s 4s alternate forwards linear;
+}
+
+@keyframes line311 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 21%;
+	}
+}
+
+#point31 {
+	position: absolute;
+	top: 80%;
+	left: 53%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point31 img {
+	width: 100%;
+}
+
+.point3 {
+	animation: point311 0.1s 4.4s alternate forwards linear;
+}
+
+@keyframes point311 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#line41 {
+	position: absolute;
+	top: 83%;
+	left: 54.55%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	transform-origin: left;
+	transform: rotate(90deg);
+	width: 0;
+	height: 1px;
+}
+
+.line4 {
+	width: 0;
+	animation: line411 0.5s 4.5s alternate forwards linear;
+}
+
+@keyframes line411 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 30%;
+	}
+}
+
+#line51 {
+	position: absolute;
+	top: 78%;
+	right: -5%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	width: 0;
+	height: 1px;
+}
+
+.line5 {
+	width: 0;
+	animation: line511 1s 1s alternate forwards linear;
+}
+
+@keyframes line511 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 35%;
+	}
+}
+
+#line61 {
+	position: absolute;
+	top: 78%;
+	right: -5%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	transform-origin: right;
+	transform: rotate(30deg);
+	width: 0;
+	height: 1px;
+}
+
+.line6 {
+	width: 0;
+	animation: line611 1s 1s alternate forwards linear;
+}
+
+@keyframes line611 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 39%;
+	}
+}
+
+#point51 {
+	position: absolute;
+	top: 75.55%;
+	left: 69%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point51 img {
+	width: 100%;
+}
+
+.point5 {
+	animation: point511 0.1s 1.9s alternate forwards linear;
+}
+
+@keyframes point511 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#point71 {
+	position: absolute;
+	top: 7.55%;
+	left: 69%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point71 img {
+	width: 100%;
+}
+
+.point7 {
+	animation: point711 0.1s 2.9s alternate forwards linear;
+}
+
+@keyframes point711 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#point61 {
+	position: absolute;
+	top: 64.55%;
+	left: 69.55%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point61 img {
+	width: 100%;
+}
+
+.point6 {
+	animation: point611 0.1s 1.9s alternate forwards linear;
+}
+
+@keyframes point611 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#point81 {
+	position: absolute;
+	top: 69.55%;
+	left: 69%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point81 img {
+	width: 100%;
+}
+
+.point8 {
+	animation: point811 0.1s 2.9s alternate forwards linear;
+}
+
+@keyframes point811 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#line71 {
+	position: absolute;
+	top: 66.55%;
+	left: 70.55%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	transform-origin: left;
+	transform: rotate(-90deg);
+	width: 0;
+	height: 1px;
+}
+
+.line7 {
+	width: 0;
+	animation: line711 1s 2s alternate forwards linear;
+}
+
+@keyframes line711 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 99%;
+	}
+}
+
+#line81 {
+	position: absolute;
+	top: 77.55%;
+	left: 70.35%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	transform-origin: left;
+	transform: rotate(-90deg);
+	width: 0;
+	height: 1px;
+}
+
+.line8 {
+	width: 0;
+	animation: line811 1s 2s alternate forwards linear;
+}
+
+@keyframes line811 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 10%;
+	}
+}

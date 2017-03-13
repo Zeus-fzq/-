@@ -1,0 +1,26 @@
+#bg7{
+	width: 100%;
+	position: absolute;
+	background: url(../img/bged1.png) no-repeat;
+	background-size: 100% 100%;
+}
+#explain {
+	position: absolute;
+	font-size: 20px;
+	top: 50%;
+	left: 5%;
+	color: pink;
+}
+#zhushi {
+	position: absolute;
+	font-size: 40px;
+	top: 55%;
+	left: 5%;
+	color: pink;
+}
+#video1 {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	display: none;
+}

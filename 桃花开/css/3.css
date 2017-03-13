@@ -1,0 +1,70 @@
+/*第三页*/
+
+#bg2 {
+	width: 100%;
+	position: absolute;
+	background: url(../img/bg11.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#line12 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	transform-origin: left;
+	transform: rotate(90deg);
+	width: 0;
+	height: 1px;
+}
+
+.line12 {
+	width: 0;
+	animation: line121 0.5s 0.5s alternate forwards linear;
+}
+
+@keyframes line121 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 15%;
+	}
+}
+
+#point22 {
+	position: absolute;
+	top: 6.88%;
+	left: 48.65%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point22 img {
+	width: 100%;
+}
+
+.point22 {
+	animation: point222 0.1s 0.9s alternate forwards linear;
+}
+
+@keyframes point222 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#beautiful2 {
+	width: 80%;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#beautiful2 img {
+	width: 100%;
+}

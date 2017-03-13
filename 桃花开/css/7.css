@@ -1,0 +1,225 @@
+#bg6 {
+	width: 100%;
+	position: absolute;
+	background: url(../img/bged1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#loading {
+	position: absolute;
+	font-size: 20px;
+	top: 50%;
+	left: 30%;
+	color: white;
+}
+
+#page1 {
+	position: absolute;
+	width: 80%;
+	top: 15%;
+	left: 10%;
+	display: none;
+}
+
+#page1 img {
+	width: 100%;
+}
+
+#location {
+	position: absolute;
+	width: 6%;
+	top: 30%;
+	left: 3%;
+}
+
+#location img {
+	width: 100%;
+}
+
+#appear {
+	display: none;
+	position: absolute;
+	/*z-index: 2;*/
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.7;
+}
+#appear img{
+	width: 100%;
+	height: 100%;
+}
+
+#xx {
+	position: absolute;
+	top: 8%;
+	left: 86%;
+	font-size: 30px;
+	color: white;
+}
+
+.pages1 {
+	position: absolute;
+	width: 80%;
+	height: 65%;
+	top: 15%;
+	left: 10%;
+}
+
+
+.pages2 {
+	position: absolute;
+	width: 74%;
+	height: 65%;
+	top: 14%;
+	left: 13%;
+	opacity: 0.7;
+}
+
+.pages3 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+.pages4 {
+	position: absolute;
+	width: 70%;
+	top: 13%;
+	height: 65%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages5 {
+	position: absolute;
+	width: 70%;
+	top: 13%;
+	height: 65%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages6 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages7 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages8 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages9 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages10 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+.pages11 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages12 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages13 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+.pages14 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages15 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+
+
+
+.pages16 {
+	position: absolute;
+	width: 70%;
+	height: 65%;
+	top: 13%;
+	left: 15%;
+	opacity: 0.5;
+}
+

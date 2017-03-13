@@ -1,0 +1,455 @@
+#bg8 {
+	width: 100%;
+	position: absolute;
+	background: url(../img/bged.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#china8 {
+	width: 16%;
+	position: absolute;
+	left: 42%;
+	top: 20.94%;
+}
+
+#china8 img {
+	width: 100%;
+}
+
+#twenty8 {
+	width: 23%;
+	position: absolute;
+	left: 40%;
+	top: 83%;
+}
+
+#twenty8 img {
+	width: 100%;
+}
+
+#beauty8 {
+	width: 20%;
+	position: absolute;
+	left: 40%;
+	top: 60%;
+}
+
+#beauty8 img {
+	width: 100%;
+}
+
+#year8 {
+	position: absolute;
+	width: 22%;
+	left: 40%;
+	top: 71%;
+}
+
+#year8 img {
+	width: 100%;
+}
+
+#master8 {
+	position: absolute;
+	width: 20%;
+	left: 40%;
+	top: 76%;
+}
+
+#master8 img {
+	width: 100%;
+}
+
+#si8 {
+	position: absolute;
+	width: 22%;
+	left: 35%;
+	top: 52%;
+}
+
+#si8 img {
+	width: 100%;
+}
+
+#linedero1 {
+	position: absolute;
+	top: 10%;
+	left: -4%;
+	width: 0;
+	transform-origin: left;
+	transform: rotate(30deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.linedero1 {
+	width: 0;
+	animation: linedero11 1s 1s alternate forwards linear;
+}
+
+@keyframes linedero11 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 42%;
+	}
+}
+
+#linedero2 {
+	position: absolute;
+	bottom: 20%;
+	right: -4%;
+	width: 0;
+	transform-origin: right;
+	transform: rotate(45deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.linedero2 {
+	width: 0;
+	animation: linedero21 1s 1s alternate forwards linear;
+}
+
+@keyframes linedero21 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 45%;
+	}
+}
+
+#linedero3 {
+	position: absolute;
+	bottom: 30%;
+	right: -4%;
+	width: 0;
+	transform-origin: right;
+	transform: rotate(45deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.linedero3 {
+	width: 0;
+	animation: linedero31 1s 1s alternate forwards linear;
+}
+
+@keyframes linedero31 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 45%;
+	}
+}
+
+#pointedero1 {
+	position: absolute;
+	top: 20%;
+	left: 30.44%;
+	width: 3%;
+	opacity: 0;
+}
+
+#pointedero1 img {
+	width: 100%;
+}
+
+.pointedero1 {
+	animation: pointedero11 0.1s 1.9s alternate forwards linear;
+}
+
+@keyframes pointedero11 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#pointedero2 {
+	position: absolute;
+	top: 50.44%;
+	left: 70.44%;
+	width: 3%;
+	opacity: 0;
+}
+
+#pointedero2 img {
+	width: 100%;
+}
+
+.pointedero2 {
+	animation: pointedero21 0.1s 1.9s alternate forwards linear;
+}
+
+@keyframes pointedero21 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#pointedero3 {
+	position: absolute;
+	top: 60.44%;
+	left: 70.44%;
+	width: 3%;
+	opacity: 0;
+}
+
+#pointedero3 img {
+	width: 100%;
+}
+
+.pointedero3 {
+	animation: pointedero31 0.1s 1.9s alternate forwards linear;
+}
+
+@keyframes pointedero31 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#linedero4 {
+	position: absolute;
+	top: 21.44%;
+	left: 31.94%;
+	width: 0;
+	transform-origin: left;
+	transform: rotate(90deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.linedero4 {
+	width: 0;
+	animation: linedero41 1s 2s alternate forwards linear;
+}
+
+@keyframes linedero41 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 67%;
+	}
+}
+
+#linedero5 {
+	position: absolute;
+	top: 51.94%;
+	left: 71.94%;
+	width: 0;
+	transform-origin: left;
+	transform: rotate(-90deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.linedero5 {
+	width: 0;
+	animation: linedero51 1s 2s alternate forwards linear;
+}
+
+@keyframes linedero51 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 70%;
+	}
+}
+
+#linedero6 {
+	position: absolute;
+	top: 61.54%;
+	left: 71.54%;
+	width: 0;
+	transform-origin: left;
+	transform: rotate(90deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.linedero6 {
+	width: 0;
+	animation: linedero61 1s 2s alternate forwards linear;
+}
+
+@keyframes linedero61 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 35%;
+	}
+}
+
+#pointedero4 {
+	position: absolute;
+	top: 58%;
+	left: 30.44%;
+	width: 3%;
+	opacity: 0;
+}
+
+#pointedero4 img {
+	width: 100%;
+}
+
+.pointedero4 {
+	animation: pointedero41 0.1s 2.9s alternate forwards linear;
+}
+
+@keyframes pointedero41 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#pointedero5 {
+	position: absolute;
+	top: 10.44%;
+	left: 70.44%;
+	width: 3%;
+	opacity: 0;
+}
+
+#pointedero5 img {
+	width: 100%;
+}
+
+.pointedero5 {
+	animation: pointedero51 0.1s 2.9s alternate forwards linear;
+}
+
+@keyframes pointedero51 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#pointedero6 {
+	position: absolute;
+	top: 80.11%;
+	left: 70.11%;
+	width: 3%;
+	opacity: 0;
+}
+
+#pointedero6 img {
+	width: 100%;
+}
+
+.pointedero6 {
+	animation: pointedero61 0.1s 2.9s alternate forwards linear;
+}
+
+@keyframes pointedero61 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#linedero7 {
+	position: absolute;
+	top: 81.55%;
+	left: 71.55%;
+	width: 0;
+	transform-origin: left;
+	transform: rotate(180deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.linedero7 {
+	width: 0;
+	animation: linedero71 1s 3s alternate forwards linear;
+}
+
+@keyframes linedero71 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 38%;
+	}
+}
+
+#pointedero7 {
+	position: absolute;
+	top: 80.11%;
+	left: 30.44%;
+	width: 3%;
+	opacity: 0;
+}
+
+#pointedero7 img {
+	width: 100%;
+}
+
+.pointedero7 {
+	animation: pointedero71 0.1s 3.9s alternate forwards linear;
+}
+
+@keyframes pointedero71 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#linedero8 {
+	position: absolute;
+	top: 81.51%;
+	left: 31.94%;
+	width: 0;
+	transform-origin: left;
+	transform: rotate(90deg);
+	height: 1px;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.linedero8 {
+	width: 0;
+	animation: linedero81 1s 4s alternate forwards linear;
+}
+
+@keyframes linedero81 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 38%;
+	}
+}

@@ -1,0 +1,68 @@
+#bg4 {
+	width: 100%;
+	position: absolute;
+	background: url(../img/bg11.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#line122 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	background: url(../img/line4.png) no-repeat;
+	background-size: 100% 100%;
+	transform-origin: left;
+	transform: rotate(90deg);
+	width: 0;
+	height: 1px;
+}
+
+.line122 {
+	width: 0;
+	animation: line1212 0.5s 0.5s alternate forwards linear;
+}
+
+@keyframes line1212 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 15%;
+	}
+}
+
+#point222 {
+	position: absolute;
+	top: 6.88%;
+	left: 48.65%;
+	width: 3%;
+	opacity: 0;
+}
+
+#point222 img {
+	width: 100%;
+}
+
+.point222 {
+	animation: point2222 0.1s 0.9s alternate forwards linear;
+}
+
+@keyframes point2222 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#beautiful22 {
+	width: 80%;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#beautiful22 img {
+	width: 100%;
+}

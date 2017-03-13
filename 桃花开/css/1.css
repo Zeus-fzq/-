@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container {
+	width: 100%;
+	transform: scale(1.27, 1.27);
+}
+
+#actor1 {
+	background-color: rgb(244, 237, 239);
+}
+
+#logo {
+	width: 60%;
+	position: absolute;
+	top: 28.24%;
+	left: 21.45%;
+	opacity: 0;
+	animation: logo1 1s 2s alternate forwards ease;
+}
+
+@keyframes logo1 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#logo img {
+	width: 100%;
+}
+
+#beautiful {
+	position: absolute;
+	width: 60%;
+	left: 20%;
+	top: 51.87%;
+	opacity: 0;
+	animation: beautiful1 1s 1s alternate forwards ease;
+}
+
+@keyframes beautiful1 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#beautiful img {
+	width: 100%;
+}
+
+#underline {
+	width: 5.47%;
+	position: absolute;
+	bottom: 5%;
+	left: 47.27%;
+	/*opacity: 0;*/
+	animation: underline1 1s alternate forwards infinite ease;
+}
+
+@keyframes underline1 {
+	from {
+		bottom: 5%;
+		left: 47.27%;
+	}
+	to {
+		bottom: 6%;
+		left: 47.27%;
+	}
+}
+
+#underline img {
+	width: 100%;
+}
+
+#bg {
+	width: 100%;
+	background: url(../img/bg.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	animation: bg1 1s 3s alternate forwards ease;
+}
+
+@keyframes bg1 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
